@@ -68,7 +68,7 @@ void draw(){
   enemyXx=enemyX+(enemyW+spacing)*enemy;  
   image(resA,enemyXx,enemyYy);}
   if(enemyX>width){enemyX=0-(enemyW+spacing)*5;
-  enemyY=floor(random(10,400-5*(enemyW)));
+  enemyY=floor(random(10,480-4*(enemyW)));
      formation=FORMATION_A;
      
      }
@@ -81,7 +81,7 @@ void draw(){
   enemyYy=enemyY+(enemyW-20)*enemyA; 
   image(resA,enemyXx,enemyYy);}
   if(enemyX>width){enemyX=0-(enemyW+spacing)*5;
-  enemyY=floor(random(80,400-3*(enemyW)));
+  enemyY=floor(random(85,480-3*(enemyW)));
      formation=FORMATION_B;
      
   }
@@ -105,7 +105,7 @@ void draw(){
   image(resA,enemyXB,enemyYB);
   image(resA,enemyXA,enemyYA);}
   if(enemyX>width+(enemyW-spacing)*4){enemyX=0-(enemyW+spacing)*5;
-    enemyY=floor(random(80,height-80));
+    enemyY=floor(random(50,410-enemyW));
      formation=FORMATION;
    
   }
