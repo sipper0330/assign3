@@ -105,7 +105,7 @@ void draw(){
   image(resA,enemyXB,enemyYB);
   image(resA,enemyXA,enemyYA);}
   if(enemyX>width+(enemyW-spacing)*4){enemyX=0-(enemyW+spacing)*5;
-    enemyY=floor(random(50,410-enemyW));
+    enemyY=floor(random(50,390-enemyW));
      formation=FORMATION;
    
   }
